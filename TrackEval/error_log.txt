@@ -1,0 +1,42 @@
+MotChallenge2DBox
+NEWTrack
+Traceback (most recent call last):
+  File "/content/drive/MyDrive/MOT/deep_sort/TrackEval/trackeval/eval.py", line 113, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/content/drive/MyDrive/MOT/deep_sort/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/content/drive/MyDrive/MOT/deep_sort/TrackEval/trackeval/eval.py", line 218, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/content/drive/MyDrive/MOT/deep_sort/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/content/drive/MyDrive/MOT/deep_sort/TrackEval/trackeval/datasets/_base_dataset.py", line 93, in get_raw_seq_data
+    raw_tracker_data = self._load_raw_file(tracker, seq, is_gt=False)
+  File "/content/drive/MyDrive/MOT/deep_sort/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 220, in _load_raw_file
+    raise TrackEvalException(
+trackeval.utils.TrackEvalException: Tracking data contains the following invalid timesteps in seq PETS09-S2L1: 0, 
+
+
+
+
+
+MotChallenge2DBox
+NEWTrack
+Traceback (most recent call last):
+  File "/content/drive/MyDrive/MOT/deep_sort/TrackEval/trackeval/eval.py", line 113, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/content/drive/MyDrive/MOT/deep_sort/TrackEval/trackeval/_timing.py", line 64, in wrap
+    return f(*args, **kw)
+  File "/content/drive/MyDrive/MOT/deep_sort/TrackEval/trackeval/eval.py", line 218, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/content/drive/MyDrive/MOT/deep_sort/TrackEval/trackeval/_timing.py", line 64, in wrap
+    return f(*args, **kw)
+  File "/content/drive/MyDrive/MOT/deep_sort/TrackEval/trackeval/datasets/_base_dataset.py", line 93, in get_raw_seq_data
+    raw_tracker_data = self._load_raw_file(tracker, seq, is_gt=False)
+  File "/content/drive/MyDrive/MOT/deep_sort/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 220, in _load_raw_file
+    raise TrackEvalException(
+trackeval.utils.TrackEvalException: Tracking data contains the following invalid timesteps in seq KITTI-17: 0, 
+
+
+
+
+
