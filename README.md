@@ -5,6 +5,14 @@
 This repository provides the implementation of an object tracking system based on Deep SORT. The system integrates YOLOv5 for object detection and customizable deep learning models for ReID (Re-Identification). 
 
 
+## Run in Google Colab
+
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mot2/blob/master/Modified_Deep_Sort.ipynb)
+
+
+Replace `{username}` and `{repository}` with your GitHub username and repository name, respectively.
+
 ## Usage
 
 Initialize the ModifiedDeepSort class with the desired configuration parameters:
