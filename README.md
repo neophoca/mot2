@@ -8,7 +8,7 @@ This repository provides the implementation of an object tracking system based o
 ## Run in Google Colab
 
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mot2/blob/master/Modified_Deep_Sort.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/neophoca/mot2/blob/master/Modified_Deep_Sort.ipynb)
 
 
 ## Usage
